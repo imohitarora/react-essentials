@@ -5,7 +5,7 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App authorized={false} />
+    <App login={"imohitarora"} />
   </React.StrictMode>,
   document.getElementById("root")
 );
